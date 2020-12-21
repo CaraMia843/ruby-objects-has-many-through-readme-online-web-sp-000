@@ -1,6 +1,9 @@
 class Waiter
 
-attr_accessor :name, :experience
+  def initialize(name, years_of_experience)
+   @name = name
+   @years_of_experience = experience
+  end
 
 
 end
