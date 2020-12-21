@@ -18,6 +18,6 @@ class Customer
   end
   
   def meals
-    self.new_meal
+    self.new_meal(waiter, total, tip=0)
   end
 end
